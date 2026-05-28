@@ -1,4 +1,7 @@
-# Python
+# Rust
+/target/
+
+# Python (legacy branch only; kept for reference)
 __pycache__/
 *.py[cod]
 *$py.class
@@ -36,4 +39,4 @@ ENV/
 # Project specific
 *.log
 .DS_Store
-Thumbs.db 
+Thumbs.db

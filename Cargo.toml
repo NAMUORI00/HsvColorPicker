@@ -1,0 +1,13 @@
+[package]
+name = "hsv-color-picker"
+version = "0.2.0"
+edition = "2021"
+description = "HSV real-time object detection from screen capture"
+
+[dependencies]
+eframe = "0.29"
+egui = "0.29"
+xcap = "0.0.14"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+crossbeam-channel = "0.5"
