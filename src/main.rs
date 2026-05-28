@@ -6,8 +6,8 @@ mod settings;
 fn main() -> eframe::Result<()> {
     let options = eframe::NativeOptions {
         viewport: egui::ViewportBuilder::default()
-            .with_inner_size([480.0, 520.0])
-            .with_title("HSV Control"),
+            .with_inner_size([960.0, 640.0])
+            .with_title("HSV Color Picker"),
         ..Default::default()
     };
 

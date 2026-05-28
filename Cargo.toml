@@ -3,6 +3,8 @@ name = "hsv-color-picker"
 version = "0.2.0"
 edition = "2021"
 description = "HSV real-time object detection from screen capture"
+readme = "README.md"
+repository = "https://github.com/NAMUORI00/HsvColorPicker"
 
 [dependencies]
 eframe = "0.29"
